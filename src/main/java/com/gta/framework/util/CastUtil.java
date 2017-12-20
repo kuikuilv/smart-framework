@@ -97,6 +97,7 @@ public final class CastUtil {
         if(obj != null){
             booleanValue = Boolean.parseBoolean(castString(obj));
         }
+        int a=0;
         return booleanValue;
     }
 }
